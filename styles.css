@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6fff3;
+  max-height: 1000px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  background-color: #00b359;
+  color: #E0FFFF;
+  background-size: cover;
+  height: 80px;
+  padding: 20px;
+  flex: 1;
+}
+
+.footer-two {
+  text-align: right;
+}
+
+.Tips-List {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  text-align: left;
+  padding: 0px 20px 20px 100px;
+}
+
+.list {
+  padding: 20px 20px 20px 20px;
+
+}
+
+.eggs {
+  display: flex;
+  font-family: "Georgia", serif;
+  color: #206040;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+
+}
+
+.chickensalad {
+  display: flex;
+  font-family: "Georgia", serif;
+  color: #206040;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  margin-top: 10px;
+}
+
+.salmon {
+  display: flex;
+  font-family: "Georgia", serif;
+  color: #206040;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+}
+
+
+.walnuts {
+  display: flex;
+  font-family: "Georgia", serif;
+  color: #206040;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  justify-content: space-between;
+}
+
+#walnuts-image {
+  padding-bottom: 50px;
+  height: auto;
+  width: 300px;
+  transform: rotate(-90deg);
+}
+
+#salmon-image {
+  padding-left: 25px;
+  height: auto;
+  width: 300px;
+}
+
+#chickensalad {
+  padding-bottom: 50px;
+  height: auto;
+  width: 300px;
+  transform: rotate(-90deg);
+}
+#boiledeggs {
+  text-align: center;
+  padding-top: 50px;
+  height: auto;
+  width: 300px;
+  transform: rotate(90deg);
+}
+
+.bg-dark {
+  background-color: #00b359 !important;
+}
+
+#Center-Text {
+  text-align: center;
+  padding: 170px 100px 30px;
+  font-size: 60px;
+  font-family: "Georgia", serif;
+  color: #206040;
+}
+
+#About-Center {
+  text-align: left;
+  padding: 25px 25px 50px;
+  font-family: "Georgia", serif;
+  color: #206040;
+}
+
+.About-Keto {
+  text-align: left;
+  font-size: 20px;
+  padding: 25px 25px 20px;
+  font-family: "Georgia", serif;
+  color: #206040;
+}
+
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #00b359;
+  font-size: 35px;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid #206040;
+  border-radius: 3px;
+  width: 250px;
+  margin: 20px auto;
+  margin-bottom: 250px;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #206040;
+  background-color: #d9f2e6;
+}
+
+.button:active,
+.button:visited:active {
+  color: #206040;
+  background-color: #d9f2e6;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 960px) {
+  #About-Center {
+    text-align: center;
+  }
+  #chickensalad, #boiledeggs, #salmon-image, #walnuts-image {
+    height: 50%;
+    vertical-align: middle;
+    text-align: center;
+  }
+  body {
+    width:414px;
+  }
+
+  .eggs,
+  .chickensalad,
+  .salmon,
+  .walnuts {
+    vertical-align: bottom;
+    position: relative;
+    height: 50%;
+  }
+}
